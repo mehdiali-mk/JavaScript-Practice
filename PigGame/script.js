@@ -83,7 +83,7 @@ btnHold.addEventListener('click', function () {
       score[activePlayer];
     currentScore = 0;
 
-    if (score[activePlayer] >= 20) {
+    if (score[activePlayer] >= 100) {
       playing = false;
       document.querySelector('.dice').classList.add('hidden');
       document
