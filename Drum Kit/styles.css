@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  text-align: center;
+  background-color: #191825;
+}
+
+h1 {
+  margin-top: 2.4rem;
+  font-size: 8rem;
+  color: white;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 cyan;
+}
+
+footer {
+  color: white;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #19182587;
+  font-size: 6.4rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da0463;
+  text-shadow: 3px 0 #19182587;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+/***** Footer Section *****/
+
+footer {
+  font-size: 2rem;
+  font-weight: 500;
+  color: cyan;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+
+.heart {
+  color: red;
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.social-media-icons ion-icon {
+  margin-top: 1.2rem;
+  font-size: 2.4rem;
+  color: cyan;
+}
+
+.social-media-icons ion-icon:hover {
+  scale: 1.1;
+  box-shadow: 0 1.2rem 1.2rem 0 rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+/***** End Footer Section *****/
