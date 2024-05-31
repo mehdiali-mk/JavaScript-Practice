@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Multiplication Test</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="primary-heading">This app is dedicated to my Sisters.</h1>
+      </div>
+      <div class="container nav--container">
+        <button class="btn btn--reset">Reset</button>
+        <div class="score-container">
+          <span class="score">Score: </span>
+          <span class="score-number">0</span>
+          <span class="wrong">Wrong: </span> <span class="wrong-number">0</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="question">
+          <span class="number1">0</span> <span class="multiply">x</span>
+          <span class="number2">0</span> <span class="equalto">=</span>
+          <span class="result">?</span>
+        </div>
+        <div class="answer">
+          <div class="input">
+            <input type="number" class="user-answer" id="user-answer" />
+            <img
+              src="Resources/tick.svg"
+              alt="Right"
+              class="true-false-icon hidden"
+            />
+          </div>
+          <div class="buttons">
+            <button class="btn btn--submit">Submit</button>
+            <button class="btn btn--next hidden">Next >></button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer">
+        <span class="creator"
+          >Developed by:
+          <span class="creator-name">Mehdiali Kadiwala</span></span
+        >
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
